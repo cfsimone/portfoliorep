@@ -1,4 +1,23 @@
 .test {
   border-bottom: 1px; }
 
+.main__menu {
+  height: 60px;
+  background-color: black;
+  text-align: center; }
+  .main__menu li {
+    display: inline-block;
+    margin-top: em(20px);
+    margin-bottom: em(20px); }
+  .main__menu a {
+    text-transform: uppercase;
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: em(16px);
+    display: block; }
+    .main__menu a:hover {
+      color: lightgrey; }
+
 /*# sourceMappingURL=style.css.map */
